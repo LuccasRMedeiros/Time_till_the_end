@@ -12,7 +12,7 @@ let timerObj = {
     timerID: 0
 }
 
-let audioplayer = new Audio("mp3/libera-me-from-hell.mp3");
+let audioplayer = new Audio("");
 
 function start_pause() {
     if ($("#only-btn").val() === "Start") {
