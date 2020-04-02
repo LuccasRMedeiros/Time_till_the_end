@@ -1,0 +1,80 @@
+main {
+    padding: 45px 140px;
+}
+
+h1 , h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 44pt;
+}
+
+h2 {
+    font-size: 60pt;
+}
+
+label, input {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24pt;
+    margin: 5%;
+}
+
+label{
+    margin-left: 0;
+    display: inline-block;
+}
+
+input {
+    border: 0;
+    border-bottom: 2px solid;
+    font-weight: 200;
+    font-size: 18pt;
+    text-align: right;
+    width: 50%;
+    outline: none;
+    float: right;
+}
+
+input:focus {
+    border: 0;
+    border-bottom: 4px solid;
+    font-weight: 400;
+}
+
+input.button {
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color:black;
+    opacity: 0.3;
+    width:200px;
+    float: none;
+}
+
+input.button:focus{
+    opacity: 1;
+}
+
+input.button:hover{
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+#input-group {
+    width: 700px;
+    display: inline-block;
+    border-right: 1px solid rgba(5, 5, 5, 0.6);
+}
+
+#txt-boxes {
+    margin-bottom: 50px;
+}
+
+#countdown {
+    padding: 0px 50px;
+    display: inline-block;
+    vertical-align: top;
+}

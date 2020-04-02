@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="urf-8">
+        <title>Time till the end</title>
+        <link href="https://fonts.googleapis.com/css?family=Inter:100,200,400,700|Raleway:100,300,300i,400,400i,700&display=swap" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="script/clock.js" defer></script>
+
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <h1>Time till the end</h1>
+
+            </header>
+
+            <div id="input-group">
+                <div id="txt-boxes">
+                    <label for="minutes-input">Minutes:</label>
+                    <input type="number" id="minutes-input" placeholder="0" max="300" min="0">
+                    
+                    <br>
+
+                    <label for="seconds-input">Seconds:</label>
+                    <input type="number" id="seconds-input" placeholder="0" min="0">
+
+                </div>
+
+                <div id="btns">
+                    <input type="button" id="only-btn" class="button" value="Start" onclick="start_pause()">
+                    <input type="button" class="button" value="Stop" onclick="stopTimer()">
+                    
+                </div>
+            </div>
+
+            <div id="countdown">
+                <h2><span id="minutes">0</span>:<span id="seconds">00</span></h2>
+
+            </div>
+
+        </main>
+
+    </body>
