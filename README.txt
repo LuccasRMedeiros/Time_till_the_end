@@ -1,4 +1,4 @@
-This project was made with the purpose to study javascript and web page development.
+This project was made with the purpose to study javascript and web development.
 
 It would receive updates in the future, but the project is already completed.
 
